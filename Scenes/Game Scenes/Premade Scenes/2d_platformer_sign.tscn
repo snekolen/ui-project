@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://diervuosq2jhf"]
+
+[ext_resource type="Script" uid="uid://coxrkki62gcmn" path="res://Scenes/Game Scenes/Premade Scripts/2d_platformer_sign.gd" id="1_lgsb0"]
+[ext_resource type="Texture2D" uid="uid://c5lomjbx54f0j" path="res://Assets/Game Art/2DPlatformerTilemap.png" id="1_v6yge"]
+[ext_resource type="Shader" uid="uid://dqqywweh6nxei" path="res://Scenes/Game Scenes/Premade Scripts/canvasgroup_outline.gdshader" id="1_xvye8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6j1cq"]
+size = Vector2(64, 64)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xvye8"]
+shader = ExtResource("1_xvye8")
+shader_parameter/line_colour = Color(1, 1, 1, 1)
+shader_parameter/line_thickness = 0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1274x"]
+atlas = ExtResource("1_v6yge")
+region = Rect2(845, 390, 64, 64)
+
+[node name="Sign" type="Area2D" unique_id=1676996122]
+script = ExtResource("1_lgsb0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1057382862]
+position = Vector2(0, -32)
+shape = SubResource("RectangleShape2D_6j1cq")
+
+[node name="CanvasGroup" type="CanvasGroup" parent="." unique_id=230481068]
+material = SubResource("ShaderMaterial_xvye8")
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasGroup" unique_id=1456630961]
+position = Vector2(0, -32)
+texture = SubResource("AtlasTexture_1274x")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

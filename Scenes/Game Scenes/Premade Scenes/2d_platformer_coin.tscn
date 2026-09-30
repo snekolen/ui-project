@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://dlg0gro1of0ht"]
+
+[ext_resource type="Texture2D" uid="uid://c5lomjbx54f0j" path="res://Assets/Game Art/2DPlatformerTilemap.png" id="1_11ey7"]
+
+[sub_resource type="GDScript" id="GDScript_11ey7"]
+resource_name = "2DPlatformerCoin"
+script/source = "extends Area2D
+
+@export var value: int = 5
+
+func _on_body_entered(body: Node2D) -> void:
+	if body is Player:
+		body.coins += value
+		queue_free()
+"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i5gns"]
+atlas = ExtResource("1_11ey7")
+region = Rect2(0, 130, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ts2ei"]
+atlas = ExtResource("1_11ey7")
+region = Rect2(65, 130, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ug4ny"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i5gns")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ts2ei")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jltft"]
+radius = 20.0
+
+[node name="Coin" type="Area2D" unique_id=194657789]
+script = SubResource("GDScript_11ey7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1493393306]
+sprite_frames = SubResource("SpriteFrames_ug4ny")
+autoplay = "default"
+frame_progress = 0.29239306
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=654778821]
+shape = SubResource("CircleShape2D_jltft")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

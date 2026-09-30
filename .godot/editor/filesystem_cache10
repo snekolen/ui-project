@@ -1,0 +1,46 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1790698395
+icon.png::CompressedTexture2D::3494465314294584827::1790698269::1790698395::1::::<><><>0<>0<>ab1f30b7c5831f6c7c79df9555329d2b<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+::res://Assets/::1790698269
+::res://Assets/Game Art/::1790698269
+2DPlatformerTilemap.png::CompressedTexture2D::6902086774588627415::1790698269::1790698396::1::::<><><>0<>0<>5000e1f18c6f7d94c48fcd5f0ca23c36<>res://.godot/imported/2DPlatformerTilemap.png-f85fd07917f0b5c5152be1452fdaca0e.ctex::
+background_color_trees.svg::CompressedTexture2D::8212748446227120318::1790698269::1790698396::1::::<><><>0<>0<>1c2949548499b891fe01cb5c17412e10<>res://.godot/imported/background_color_trees.svg-143c7fd9acc7f59e3c0cbb4e87a687f9.ctex::
+background_fade_trees.svg::CompressedTexture2D::8758616237685841950::1790698269::1790698396::1::::<><><>0<>0<>782794df347db9910555f652372e9d7d<>res://.godot/imported/background_fade_trees.svg-82a61d56e96348c2f4fb2478cf88ccb6.ctex::
+player_sheet.png::CompressedTexture2D::384087308577394177::1790698269::1790698396::1::::<><><>0<>0<>2bc6d33896047da711228d3cf0fe41cc<>res://.godot/imported/player_sheet.png-ec17f436df7cbb8c6e80421cdd0e8fe2.ctex::
+::res://Assets/UI Art/::1790698269
+MainMenuBackground.png::CompressedTexture2D::2695736537492726376::1790698269::1790698396::1::::<><><>0<>0<>069a04eaf7745cabf56bf4c92da49397<>res://.godot/imported/MainMenuBackground.png-f6e07d78fa70e907cbb3fbee4681106c.ctex::
+::res://Assets/UI Art/Button Textures/::1790698269
+button_beige.svg::CompressedTexture2D::2684540190574862847::1790698269::1790698396::1::::<><><>0<>0<>25bb29d402b596dc7a919975311e4385<>res://.godot/imported/button_beige.svg-b16dd004351ed5fab337e0e94715a43f.ctex::
+button_beige_pressed.svg::CompressedTexture2D::132312935353472762::1790698269::1790698396::1::::<><><>0<>0<>481495474f02028b8761cb6a684eb101<>res://.godot/imported/button_beige_pressed.svg-2791402b8bd65ee5e5081847a9f22522.ctex::
+button_brown2.svg::CompressedTexture2D::2947731247450174733::1790698269::1790698396::1::::<><><>0<>0<>83d9c92ff27be075617c278365881f30<>res://.godot/imported/button_brown2.svg-495bee9a9610c56b928ea1f544ae2e7e.ctex::
+button_brown2_pressed.svg::CompressedTexture2D::8969506587699099138::1790698269::1790698396::1::::<><><>0<>0<>1705332efbfed187baa8f817758b71da<>res://.godot/imported/button_brown2_pressed.svg-886fb799720eabd17504be50b433a880.ctex::
+button_brown.svg::CompressedTexture2D::5646394568164660418::1790698269::1790698396::1::::<><><>0<>0<>2b61fb53d9a51cbcd5c3f8ee7d8dd139<>res://.godot/imported/button_brown.svg-e0d3bfd6c317cdbab836910d153222da.ctex::
+button_brown_close.svg::CompressedTexture2D::3168473860168022997::1790698269::1790698396::1::::<><><>0<>0<>fd967c0f68898241194d00f54a163315<>res://.godot/imported/button_brown_close.svg-217002c016a4f5b57538d63e1a52c33e.ctex::
+button_grey.svg::CompressedTexture2D::4945247835338910286::1790698269::1790698396::1::::<><><>0<>0<>d894ff3d96c5756f65cc15161f105a02<>res://.godot/imported/button_grey.svg-d9e46d61f34a61f6294f982ba3e09966.ctex::
+button_grey_close.svg::CompressedTexture2D::7479151685172052574::1790698269::1790698396::1::::<><><>0<>0<>0d124417b435b4eb5bfc63f424c78b7b<>res://.godot/imported/button_grey_close.svg-6fde22bb646e2de1bc5f714c1d31b109.ctex::
+button_red.svg::CompressedTexture2D::8133920899848268279::1790698269::1790698396::1::::<><><>0<>0<>9ce30405afe0f7bcdd76218898e2f32b<>res://.godot/imported/button_red.svg-6ae4228d1bcc46be5454bb14cef7d461.ctex::
+button_red_close.svg::CompressedTexture2D::8766542077560746763::1790698269::1790698396::1::::<><><>0<>0<>e31e98c7c812dc8c4fe08a7a44d7e151<>res://.godot/imported/button_red_close.svg-b53af65e94f0b73a8e90af38e2e70226.ctex::
+button_stone.svg::CompressedTexture2D::1223565075198475869::1790698269::1790698396::1::::<><><>0<>0<>944ea7dd9ed1184e249328d2bf2e62ef<>res://.godot/imported/button_stone.svg-5b4ff1e7d3aa771259da666628a94037.ctex::
+button_stone_pressed.svg::CompressedTexture2D::4653988987940366177::1790698269::1790698396::1::::<><><>0<>0<>bb79d22ef45d45da0e6bb2036406a9ec<>res://.godot/imported/button_stone_pressed.svg-e74026c77bd45a52a58de1c9b56db582.ctex::
+button_white.svg::CompressedTexture2D::2134659654116820179::1790698269::1790698395::1::::<><><>0<>0<>bb8ac31ddc2487d33fa052cfccc72ea7<>res://.godot/imported/button_white.svg-769141d1b01aab0c94a97ef8e021c880.ctex::
+button_white_pressed.svg::CompressedTexture2D::4397896965520547656::1790698269::1790698395::1::::<><><>0<>0<>f4a16e07a76d10d3e4b060fcd8030f30<>res://.godot/imported/button_white_pressed.svg-063676b84899cc70c997be08ada066fc.ctex::
+::res://Assets/UI Art/Panel Textures/::1790698269
+panel_brown.svg::CompressedTexture2D::1609904158950435364::1790698269::1790698395::1::::<><><>0<>0<>c28768f8392061181386c584c965f3bd<>res://.godot/imported/panel_brown.svg-c0cf122cf77ffe8e293de7a9f852bc79.ctex::
+panel_brown_corners_a.svg::CompressedTexture2D::4895206556464685948::1790698269::1790698395::1::::<><><>0<>0<>1a79208e9a512c049f98ac2e935f2fa1<>res://.godot/imported/panel_brown_corners_a.svg-002687e42e6b8cd23b82548741bc03ec.ctex::
+panel_brown_corners_b.svg::CompressedTexture2D::8009527568495392639::1790698269::1790698395::1::::<><><>0<>0<>54bf5c5ede3b470566519b02722d00c9<>res://.godot/imported/panel_brown_corners_b.svg-3001a6f06353bd467991f38a7cdfe8ce.ctex::
+panel_brown_damaged.svg::CompressedTexture2D::3608650145741947345::1790698269::1790698395::1::::<><><>0<>0<>c7408307d58e760a7db6c9dcb3fc1dd8<>res://.godot/imported/panel_brown_damaged.svg-351a55b8714ce078aa27716f8740ffa7.ctex::
+panel_grey.svg::CompressedTexture2D::2783013519500984407::1790698269::1790698395::1::::<><><>0<>0<>9dc5a456741fbdd18db2f04ff95116ca<>res://.godot/imported/panel_grey.svg-2af00d506036c86c21eebf900476d74b.ctex::
+panel_grey_bolts_detail_a.svg::CompressedTexture2D::6134850498504471304::1790698269::1790698395::1::::<><><>0<>0<>adf26ca681df557b4d93b85d3a0d9b26<>res://.godot/imported/panel_grey_bolts_detail_a.svg-8302ec716a6a2d453acfb6a8e2178cce.ctex::
+panel_grey_bolts_detail_b.svg::CompressedTexture2D::6967118384413800340::1790698269::1790698395::1::::<><><>0<>0<>6f22d21592f4ad7cda47eb28cdd5230a<>res://.godot/imported/panel_grey_bolts_detail_b.svg-d474182c4f0cc08afb52ca6888847855.ctex::
+panel_grey_dark.svg::CompressedTexture2D::818088253641403491::1790698269::1790698395::1::::<><><>0<>0<>a43efd174c11e1f1d46a81df2feb1733<>res://.godot/imported/panel_grey_dark.svg-4e50421ed780fad1e51296fd2ffe8fe9.ctex::
+::res://Scenes/::1790698269
+::res://Scenes/Game Scenes/::1790698269
+2d_platformer.tscn::PackedScene::5219227186317599527::1790698269::0::1::::<><><>0<>0<><>::uid://c5lomjbx54f0j::::res://Assets/Game Art/2DPlatformerTilemap.png<>uid://dw10eobcff5x7::::res://Assets/Game Art/background_fade_trees.svg<>uid://dpak1cwvqfrqs::::res://Assets/Game Art/background_color_trees.svg<>uid://dlg0gro1of0ht::::res://Scenes/Game Scenes/Premade Scenes/2d_platformer_coin.tscn<>uid://csgabv8fdusiy::::res://Scenes/Game Scenes/Premade Scenes/2d_platformer_player.tscn
+::res://Scenes/Game Scenes/Premade Scenes/::1790698269
+2d_platformer_coin.tscn::PackedScene::7945255152929078701::1790698269::0::1::::<><><>0<>0<><>::uid://c5lomjbx54f0j::::res://Assets/Game Art/2DPlatformerTilemap.png
+2d_platformer_player.tscn::PackedScene::6048629759389940640::1790698269::0::1::::<><><>0<>0<><>::uid://kq8c253bla2a::::res://Scenes/Game Scenes/Premade Scripts/2d_platformer_player.gd<>uid://fqb4kkn0qu1n::::res://Assets/Game Art/player_sheet.png
+2d_platformer_sign.tscn::PackedScene::7730101074683389615::1790698269::0::1::::<><><>0<>0<><>::uid://coxrkki62gcmn::::res://Scenes/Game Scenes/Premade Scripts/2d_platformer_sign.gd<>uid://c5lomjbx54f0j::::res://Assets/Game Art/2DPlatformerTilemap.png<>uid://dqqywweh6nxei::::res://Scenes/Game Scenes/Premade Scripts/canvasgroup_outline.gdshader
+::res://Scenes/Game Scenes/Premade Scripts/::1790698269
+2d_platformer_player.gd::GDScript::736927178542931198::1790698269::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+2d_platformer_sign.gd::GDScript::5804016452514863725::1790698269::0::1::::<>Area2D<><>0<>0<><>::
+canvasgroup_outline.gdshader::Shader::8316811250698013476::1790698269::0::1::::<><><>0<>0<><>::
