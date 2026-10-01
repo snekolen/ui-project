@@ -1,2 +1,8 @@
+res://Scenes/UI Scenes/difficulty_select.tscn
+res://StyleBoxes/green_button_normal.tres
+res://StyleBoxes/green_button_pressed.tres
+res://Scenes/UI Scenes/difficulty_select.gd
 res://Scenes/UI Scenes/main_menu.tscn
 res://Scenes/UI Scenes/main_menu.gd
+res://Scenes/pause_menu.tscn
+res://Scenes/pause_menu.gd

@@ -1,3 +1,7 @@
-TextureRect
-Button
 Label
+Button
+VBoxContainer
+Panel
+Control
+CanvasLayer
+TextureRect

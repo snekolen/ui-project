@@ -13,7 +13,7 @@ config_version=5
 config/name="GameDev.tv UI Course Project"
 config/description="The base project for GameDev.tv's Godot UI course!"
 config/version="1.0.0"
-run/main_scene="uid://cgmh56b8o6qff"
+run/main_scene="uid://dem0toly15n4e"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="uid://bp10llfivxdx0"
 
@@ -30,7 +30,8 @@ project/assembly_name="GameDev.tv UI Course Project"
 
 folder_colors={
 "res://Assets/": "green",
-"res://Scenes/": "blue"
+"res://Scenes/": "blue",
+"res://StyleBoxes/": "pink"
 }
 
 [input]
