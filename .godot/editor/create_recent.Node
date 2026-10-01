@@ -1,7 +1,9 @@
+RichTextLabel
+MarginContainer
 Label
-Button
 VBoxContainer
 Panel
+Button
 Control
 CanvasLayer
 TextureRect
