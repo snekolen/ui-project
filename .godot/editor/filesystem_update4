@@ -1,11 +1,3 @@
-res://Scenes/UI Scenes/difficulty_select.tscn
-res://StyleBoxes/green_button_normal.tres
-res://StyleBoxes/green_button_pressed.tres
-res://Scenes/UI Scenes/difficulty_select.gd
+res://Scenes/UI Scenes/player_hud.tscn
+res://Scenes/UI Scenes/player_hud.gd
 res://Scenes/UI Scenes/main_menu.tscn
-res://Scenes/UI Scenes/main_menu.gd
-res://Scenes/pause_menu.tscn
-res://Scenes/pause_menu.gd
-res://Scenes/Game Scenes/2d_platformer.tscn
-res://Scenes/Game Scenes/Premade Scenes/2d_platformer_sign.tscn
-res://Scenes/Game Scenes/Premade Scripts/2d_platformer_sign.gd

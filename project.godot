@@ -30,9 +30,14 @@ project/assembly_name="GameDev.tv UI Course Project"
 
 folder_colors={
 "res://Assets/": "green",
+"res://Fonts/": "yellow",
 "res://Scenes/": "blue",
 "res://StyleBoxes/": "pink"
 }
+
+[gui]
+
+theme/custom_font="uid://bwxsf5e5urayp"
 
 [input]
 

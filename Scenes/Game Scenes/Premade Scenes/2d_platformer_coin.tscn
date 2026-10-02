@@ -41,6 +41,7 @@ radius = 20.0
 
 [node name="Coin" type="Area2D" unique_id=194657789]
 script = SubResource("GDScript_11ey7")
+value = 1
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1493393306]
 sprite_frames = SubResource("SpriteFrames_ug4ny")

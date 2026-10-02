@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://bot17akbjqcew"]
+
+[ext_resource type="Script" uid="uid://dp3csb0svo2oj" path="res://Scenes/UI Scenes/player_hud.gd" id="1_kc7p7"]
+[ext_resource type="Texture2D" uid="uid://c5lomjbx54f0j" path="res://Assets/Game Art/2DPlatformerTilemap.png" id="1_lk7ri"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kc7p7"]
+atlas = ExtResource("1_lk7ri")
+region = Rect2(13, 142, 36, 40)
+
+[sub_resource type="LabelSettings" id="LabelSettings_lk7ri"]
+font_size = 32
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(3, 3)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kc7p7"]
+bg_color = Color(0.09803922, 0.09803922, 0.09803922, 0.7882353)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ski6h"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.6856489, 0.07858392, 0.16886583, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+corner_detail = 10
+
+[node name="PlayerHUD" type="CanvasLayer" unique_id=2025355514]
+script = ExtResource("1_kc7p7")
+
+[node name="Control" type="Control" parent="." unique_id=648799467]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="Control" unique_id=1348479653]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 104.0
+offset_right = 113.0
+offset_bottom = 165.0
+
+[node name="MarginContainer" type="MarginContainer" parent="Control/PanelContainer" unique_id=262940630]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control/PanelContainer/MarginContainer" unique_id=286273353]
+layout_mode = 2
+
+[node name="CoinTextureRect" type="TextureRect" parent="Control/PanelContainer/MarginContainer/HBoxContainer" unique_id=1144363835]
+layout_mode = 2
+texture = SubResource("AtlasTexture_kc7p7")
+stretch_mode = 2
+
+[node name="CoinCounterLabel" type="Label" parent="Control/PanelContainer/MarginContainer/HBoxContainer" unique_id=953945544]
+unique_name_in_owner = true
+layout_mode = 2
+text = "10"
+label_settings = SubResource("LabelSettings_lk7ri")
+
+[node name="PlayerHPBar" type="ProgressBar" parent="Control" unique_id=389855895]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 360.0
+offset_bottom = 80.0
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 30
+theme_override_styles/background = SubResource("StyleBoxFlat_kc7p7")
+theme_override_styles/fill = SubResource("StyleBoxFlat_ski6h")
+step = 1.0
+value = 40.0

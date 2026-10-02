@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://wr470p5fgxxb" path="res://Scenes/pause_menu.tscn" id="6_cd0lt"]
 [ext_resource type="PackedScene" uid="uid://diervuosq2jhf" path="res://Scenes/Game Scenes/Premade Scenes/2d_platformer_sign.tscn" id="6_rb1w1"]
 [ext_resource type="PackedScene" uid="uid://csgabv8fdusiy" path="res://Scenes/Game Scenes/Premade Scenes/2d_platformer_player.tscn" id="7_rb1w1"]
+[ext_resource type="PackedScene" uid="uid://bot17akbjqcew" path="res://Scenes/UI Scenes/player_hud.tscn" id="8_7s3nb"]
 
 [sub_resource type="Gradient" id="Gradient_t50dg"]
 offsets = PackedFloat32Array(0)
@@ -221,6 +222,8 @@ tile_set = SubResource("TileSet_726jf")
 position = Vector2(0, -79)
 
 [node name="PauseMenu" parent="." unique_id=711049307 instance=ExtResource("6_cd0lt")]
+
+[node name="PlayerHUD" parent="." unique_id=2025355514 instance=ExtResource("8_7s3nb")]
 
 [editable path="Sign"]
 [editable path="Sign2"]

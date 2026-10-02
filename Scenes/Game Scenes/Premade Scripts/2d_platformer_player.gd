@@ -12,6 +12,7 @@ const HURT_ANIMATION_LENGTH: float = 0.5
 var coins: int = 0 :
 	set(value):
 		coins = value
+		print(coins)
 		coin_collected.emit(coins)
 
 var hp: int :

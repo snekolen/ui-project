@@ -107,7 +107,7 @@ animations = [{
 radius = 23.0
 height = 86.0
 
-[node name="Player" type="CharacterBody2D" unique_id=1118249136]
+[node name="Player" type="CharacterBody2D" unique_id=1118249136 groups=["player"]]
 script = ExtResource("1_dwtay")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=897327872]
