@@ -1,7 +1,11 @@
 [gd_scene format=3 uid="uid://wr470p5fgxxb"]
 
-[ext_resource type="Script" uid="uid://ccu12nga4tap5" path="res://Scenes/UI Scenes/pause_menu.gd" id="1_emv3i"]
+[ext_resource type="Script" uid="uid://ccu12nga4tap5" path="res://Scenes/UI Scenes/UI Scripts/pause_menu.gd" id="1_emv3i"]
 [ext_resource type="Theme" uid="uid://ci533rfydd5sv" path="res://Themes/blue_theme.tres" id="2_o7tgo"]
+[ext_resource type="Script" uid="uid://clex6jvw3wfwn" path="res://Scenes/UI Scenes/UI Scripts/button_expand_animation.gd" id="3_nlp6v"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nlp6v"]
+bg_color = Color(0, 0, 0, 0.6745098)
 
 [sub_resource type="LabelSettings" id="LabelSettings_emv3i"]
 font_size = 32
@@ -23,8 +27,21 @@ offset_left = -16.0
 offset_right = -16.0
 grow_horizontal = 2
 grow_vertical = 2
+offset_transform_enabled = true
 
-[node name="Panel" type="Panel" parent="Control" unique_id=1299279004]
+[node name="BackgroundPanel" type="Panel" parent="Control" unique_id=237697811]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_right = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_nlp6v")
+
+[node name="PausePanel" type="Panel" parent="Control" unique_id=1299279004]
+unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -37,9 +54,10 @@ offset_right = 158.75
 offset_bottom = 108.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("2_o7tgo")
 theme_type_variation = &"BrownPanel"
 
-[node name="Label" type="Label" parent="Control/Panel" unique_id=1199979261]
+[node name="Label" type="Label" parent="Control/PausePanel" unique_id=1199979261]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -52,7 +70,7 @@ grow_horizontal = 2
 text = "Game Paused"
 label_settings = SubResource("LabelSettings_emv3i")
 
-[node name="MarginContainer" type="MarginContainer" parent="Control/Panel" unique_id=2070732971]
+[node name="MarginContainer" type="MarginContainer" parent="Control/PausePanel" unique_id=2070732971]
 layout_mode = 1
 anchors_preset = 12
 anchor_top = 1.0
@@ -65,27 +83,32 @@ theme_override_constants/margin_left = 36
 theme_override_constants/margin_right = 36
 theme_override_constants/margin_bottom = 32
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel/MarginContainer" unique_id=1080343066]
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/PausePanel/MarginContainer" unique_id=1080343066]
 layout_mode = 2
-theme_override_constants/separation = 10
+theme_override_constants/separation = 14
 alignment = 1
 
-[node name="ResumeButton" type="Button" parent="Control/Panel/MarginContainer/VBoxContainer" unique_id=485219353]
+[node name="ResumeButton" type="Button" parent="Control/PausePanel/MarginContainer/VBoxContainer" unique_id=485219353]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 theme = ExtResource("2_o7tgo")
 theme_override_font_sizes/font_size = 23
 text = "Resume Game"
+script = ExtResource("3_nlp6v")
+scale_on_hover = Vector2(1.08, 1.08)
 
-[node name="QuitButton" type="Button" parent="Control/Panel/MarginContainer/VBoxContainer" unique_id=1419205925]
+[node name="QuitButton" type="Button" parent="Control/PausePanel/MarginContainer/VBoxContainer" unique_id=1419205925]
 layout_mode = 2
 size_flags_vertical = 3
+offset_transform_enabled = true
 theme = ExtResource("2_o7tgo")
 theme_type_variation = &"RedButton"
 theme_override_font_sizes/font_size = 23
 text = "Exit to Desktop
 "
+script = ExtResource("3_nlp6v")
+scale_on_hover = Vector2(1.08, 1.08)
 
-[connection signal="pressed" from="Control/Panel/MarginContainer/VBoxContainer/ResumeButton" to="." method="unpause_game"]
-[connection signal="pressed" from="Control/Panel/MarginContainer/VBoxContainer/QuitButton" to="." method="quit_game"]
+[connection signal="pressed" from="Control/PausePanel/MarginContainer/VBoxContainer/ResumeButton" to="." method="unpause_game"]
+[connection signal="pressed" from="Control/PausePanel/MarginContainer/VBoxContainer/QuitButton" to="." method="quit_game"]

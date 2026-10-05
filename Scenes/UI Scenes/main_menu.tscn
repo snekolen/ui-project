@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://dem0toly15n4e"]
 
-[ext_resource type="Script" uid="uid://bjf7jhi2kbg0v" path="res://Scenes/UI Scenes/main_menu.gd" id="1_2jhfs"]
+[ext_resource type="Script" uid="uid://bjf7jhi2kbg0v" path="res://Scenes/UI Scenes/UI Scripts/main_menu.gd" id="1_2jhfs"]
 [ext_resource type="Texture2D" uid="uid://ben3nfjr0rvp5" path="res://Assets/UI Art/MainMenuBackground.png" id="2_sqku3"]
+[ext_resource type="Script" uid="uid://clex6jvw3wfwn" path="res://Scenes/UI Scenes/UI Scripts/button_expand_animation.gd" id="3_ioebn"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_k2lr6"]
 font_size = 64
@@ -386,7 +387,7 @@ offset_right = 192.25
 offset_bottom = -133.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_constants/separation = 10
+theme_override_constants/separation = 24
 
 [node name="StartGameButton" type="Button" parent="VBoxContainer" unique_id=1031088920]
 unique_name_in_owner = true
@@ -399,6 +400,8 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_sqku3")
 theme_override_styles/hover = SubResource("StyleBoxFlat_ioebn")
 theme_override_styles/focus = SubResource("StyleBoxFlat_pih3d")
 text = "Start Game"
+script = ExtResource("3_ioebn")
+scale_on_hover = Vector2(1.15, 1.15)
 metadata/_edit_use_anchors_ = true
 
 [node name="QuitGameButton" type="Button" parent="VBoxContainer" unique_id=434015611]
@@ -411,6 +414,8 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_qgqoa")
 theme_override_styles/hover = SubResource("StyleBoxFlat_ioebn")
 theme_override_styles/focus = SubResource("StyleBoxFlat_j51p1")
 text = "Quit Game"
+script = ExtResource("3_ioebn")
+scale_on_hover = Vector2(1.15, 1.15)
 metadata/_edit_use_anchors_ = true
 
 [connection signal="pressed" from="VBoxContainer/StartGameButton" to="." method="_on_start_game_button_pressed"]

@@ -3,7 +3,8 @@
 [ext_resource type="Theme" uid="uid://ci533rfydd5sv" path="res://Themes/blue_theme.tres" id="1_k68gy"]
 [ext_resource type="Texture2D" uid="uid://bfwd3c6tqmfyt" path="res://Assets/UI Art/Panel Textures/panel_grey.svg" id="1_uvdmc"]
 [ext_resource type="Texture2D" uid="uid://ben3nfjr0rvp5" path="res://Assets/UI Art/MainMenuBackground.png" id="2_2ab68"]
-[ext_resource type="Script" uid="uid://clex6jvw3wfwn" path="res://Scenes/UI Scenes/button_expand_animation.gd" id="4_7e8w3"]
+[ext_resource type="Script" uid="uid://w1ivhd2j2fpj" path="res://Scenes/UI Scenes/UI Scripts/level_select.gd" id="2_em5bs"]
+[ext_resource type="Script" uid="uid://clex6jvw3wfwn" path="res://Scenes/UI Scenes/UI Scripts/button_expand_animation.gd" id="4_7e8w3"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2ab68"]
 texture = ExtResource("1_uvdmc")
@@ -20,6 +21,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_k68gy")
+script = ExtResource("2_em5bs")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=800910242]
 layout_mode = 1
@@ -65,6 +67,7 @@ text = "Select A Level"
 horizontal_alignment = 1
 
 [node name="GridContainer" type="GridContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1097958204]
+unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_constants/h_separation = 32

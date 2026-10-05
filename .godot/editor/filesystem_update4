@@ -1,5 +1,13 @@
-res://Scenes/UI Scenes/pause_menu.tscn
+res://Scenes/UI Scenes/player_hud.tscn
 res://Themes/blue_theme.tres
+res://Scenes/UI Scenes/player_hud.gd
+res://Scenes/UI Scenes/pause_menu.tscn
+res://Scenes/UI Scenes/pause_menu.gd
 res://Scenes/UI Scenes/level_select.tscn
-res://Scenes/UI Scenes/button_expand_animation.gd
+res://Scenes/Game Scenes/Premade Scenes/2d_platformer_sign.tscn
+res://Scenes/Game Scenes/Premade Scripts/2d_platformer_sign.gd
 res://Scenes/UI Scenes/main_menu.tscn
+res://Scenes/UI Scenes/UI Scripts/button_expand_animation.gd
+res://Scenes/UI Scenes/UI Scripts/pause_menu.gd
+res://Scenes/UI Scenes/UI Scripts/level_select.gd
+res://Scenes/UI Scenes/UI Scripts/main_menu.gd

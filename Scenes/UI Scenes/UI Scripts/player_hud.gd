@@ -12,4 +12,7 @@ func _on_coin_collected(current_coins: int):
 	%CoinCounterLabel.text = str(current_coins)
 	
 func _on_hp_changed(current_hp: int):
-	%PlayerHPBar.value = current_hp
+	var tween: Tween = create_tween()
+	tween.set_trans(Tween.TRANS_CUBIC)
+	tween.set_ease(Tween.EASE_OUT)
+	tween.tween_property(%PlayerHPBar, "value", current_hp, 0.4)

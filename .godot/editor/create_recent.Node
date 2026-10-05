@@ -1,3 +1,4 @@
+Panel
 NinePatchRect
 TextureRect
 Label
@@ -8,7 +9,6 @@ Button
 GridContainer
 ProgressBar
 Control
-Panel
 HBoxContainer
 CanvasLayer
 RichTextLabel
