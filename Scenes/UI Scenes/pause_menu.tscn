@@ -1,9 +1,13 @@
 [gd_scene format=3 uid="uid://wr470p5fgxxb"]
 
-[ext_resource type="Script" uid="uid://ccu12nga4tap5" path="res://Scenes/pause_menu.gd" id="1_emv3i"]
+[ext_resource type="Script" uid="uid://ccu12nga4tap5" path="res://Scenes/UI Scenes/pause_menu.gd" id="1_emv3i"]
+[ext_resource type="Theme" uid="uid://ci533rfydd5sv" path="res://Themes/blue_theme.tres" id="2_o7tgo"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_emv3i"]
 font_size = 32
+outline_size = 4
+outline_color = Color(0, 0, 0, 1)
+shadow_color = Color(0.00012077868, 0.00010003114, 0.00019089958, 0)
 shadow_offset = Vector2(2, 1)
 
 [node name="PauseMenu" type="CanvasLayer" unique_id=711049307]
@@ -15,6 +19,8 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -16.0
+offset_right = -16.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -25,22 +31,23 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -141.5
-offset_top = -83.0
-offset_right = 141.5
-offset_bottom = 131.0
+offset_left = -158.75
+offset_top = -108.0
+offset_right = 158.75
+offset_bottom = 108.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_type_variation = &"BrownPanel"
 
 [node name="Label" type="Label" parent="Control/Panel" unique_id=1199979261]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -106.0
-offset_top = 11.0
-offset_right = 106.0
-offset_bottom = 56.0
+offset_left = -104.0
+offset_top = 24.0
+offset_right = 108.0
+offset_bottom = 69.0
 grow_horizontal = 2
 text = "Game Paused"
 label_settings = SubResource("LabelSettings_emv3i")
@@ -54,9 +61,9 @@ anchor_bottom = 1.0
 offset_top = -135.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_constants/margin_left = 16
-theme_override_constants/margin_right = 16
-theme_override_constants/margin_bottom = 16
+theme_override_constants/margin_left = 36
+theme_override_constants/margin_right = 36
+theme_override_constants/margin_bottom = 32
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Control/Panel/MarginContainer" unique_id=1080343066]
 layout_mode = 2
@@ -67,13 +74,16 @@ alignment = 1
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_font_sizes/font_size = 0
+theme = ExtResource("2_o7tgo")
+theme_override_font_sizes/font_size = 23
 text = "Resume Game"
 
 [node name="QuitButton" type="Button" parent="Control/Panel/MarginContainer/VBoxContainer" unique_id=1419205925]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_font_sizes/font_size = 0
+theme = ExtResource("2_o7tgo")
+theme_type_variation = &"RedButton"
+theme_override_font_sizes/font_size = 23
 text = "Exit to Desktop
 "
 

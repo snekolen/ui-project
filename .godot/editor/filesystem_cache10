@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1791063999
+::res://::1791142149
 icon.png::CompressedTexture2D::3494465314294584827::1790698269::1790698395::1::::<><><>0<>0<>ab1f30b7c5831f6c7c79df9555329d2b<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 ::res://Assets/::1790962972
 ::res://Assets/Game Art/::1790698396
@@ -36,11 +36,9 @@ panel_grey_dark.svg::CompressedTexture2D::818088253641403491::1790698269::179069
 ::res://Fonts/::1790963230
 FreckleFace-Regular.ttf::FontFile::3414067665310666475::1790962913::1790962995::1::::<><><>0<>0<>55aa01eb12cba9d73cf6a44b69e18fca<>res://.godot/imported/FreckleFace-Regular.ttf-ec6a2f3dabb22bf392f38c8cc51786e8.fontdata::
 GeistPixel-Regular-VariableFont_ELSH.ttf::FontFile::3979159350182689607::1790963197::1790963230::1::::<><><>0<>0<>c984267092dd69d7dca95881f0743080<>res://.godot/imported/GeistPixel-Regular-VariableFont_ELSH.ttf-b7c66ae62125a2b287479c1395bb3331.fontdata::
-::res://Scenes/::1790893875
-pause_menu.gd::GDScript::4956134160102702084::1790872272::0::1::::<>CanvasLayer<><>0<>0<><>::
-pause_menu.tscn::PackedScene::1581068257676740203::1790893875::0::1::::<><><>0<>0<><>::uid://ccu12nga4tap5::::res://Scenes/pause_menu.gd
-::res://Scenes/Game Scenes/::1790961044
-2d_platformer.tscn::PackedScene::5219227186317599527::1790961044::0::1::::<><><>0<>0<><>::uid://c5lomjbx54f0j::::res://Assets/Game Art/2DPlatformerTilemap.png<>uid://dw10eobcff5x7::::res://Assets/Game Art/background_fade_trees.svg<>uid://dpak1cwvqfrqs::::res://Assets/Game Art/background_color_trees.svg<>uid://dlg0gro1of0ht::::res://Scenes/Game Scenes/Premade Scenes/2d_platformer_coin.tscn<>uid://wr470p5fgxxb::::res://Scenes/pause_menu.tscn<>uid://diervuosq2jhf::::res://Scenes/Game Scenes/Premade Scenes/2d_platformer_sign.tscn<>uid://csgabv8fdusiy::::res://Scenes/Game Scenes/Premade Scenes/2d_platformer_player.tscn<>uid://bot17akbjqcew::::res://Scenes/UI Scenes/player_hud.tscn
+::res://Scenes/::1791067253
+::res://Scenes/Game Scenes/::1791067253
+2d_platformer.tscn::PackedScene::5219227186317599527::1791067253::0::1::::<><><>0<>0<><>::uid://c5lomjbx54f0j::::res://Assets/Game Art/2DPlatformerTilemap.png<>uid://dw10eobcff5x7::::res://Assets/Game Art/background_fade_trees.svg<>uid://dpak1cwvqfrqs::::res://Assets/Game Art/background_color_trees.svg<>uid://dlg0gro1of0ht::::res://Scenes/Game Scenes/Premade Scenes/2d_platformer_coin.tscn<>uid://wr470p5fgxxb::::res://Scenes/UI Scenes/pause_menu.tscn<>uid://diervuosq2jhf::::res://Scenes/Game Scenes/Premade Scenes/2d_platformer_sign.tscn<>uid://csgabv8fdusiy::::res://Scenes/Game Scenes/Premade Scenes/2d_platformer_player.tscn<>uid://bot17akbjqcew::::res://Scenes/UI Scenes/player_hud.tscn
 ::res://Scenes/Game Scenes/Premade Scenes/::1790963051
 2d_platformer_coin.tscn::PackedScene::7945255152929078701::1790961275::0::1::::<><><>0<>0<><>::uid://c5lomjbx54f0j::::res://Assets/Game Art/2DPlatformerTilemap.png
 2d_platformer_player.tscn::PackedScene::6048629759389940640::1790961193::0::1::::<><><>0<>0<><>::uid://kq8c253bla2a::::res://Scenes/Game Scenes/Premade Scripts/2d_platformer_player.gd<>uid://fqb4kkn0qu1n::::res://Assets/Game Art/player_sheet.png
@@ -49,15 +47,19 @@ pause_menu.tscn::PackedScene::1581068257676740203::1790893875::0::1::::<><><>0<>
 2d_platformer_player.gd::GDScript::736927178542931198::1790961193::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
 2d_platformer_sign.gd::GDScript::5804016452514863725::1790891700::0::1::::<>Area2D<><>0<>0<><>::
 canvasgroup_outline.gdshader::Shader::8316811250698013476::1790698269::0::1::::<><><>0<>0<><>::
-::res://Scenes/UI Scenes/::1791063589
+::res://Scenes/UI Scenes/::1791142109
 difficulty_select.gd::GDScript::1471096670714274885::1790871602::0::1::::<>Control<><>0<>0<><>::
 difficulty_select.tscn::PackedScene::1837745725824423293::1790872126::0::1::::<><><>0<>0<><>::uid://u7u0n2nmuh0x::::res://Scenes/UI Scenes/difficulty_select.gd<>uid://45ykjyj66w0e::::res://StyleBoxes/green_button_normal.tres<>uid://dmkdyh6ius3rb::::res://StyleBoxes/green_button_pressed.tres<>uid://cu4msrt0yyxle::::res://StyleBoxes/green_button_hover.tres
-level_select.tscn::PackedScene::7348332117490690146::1791063589::0::1::::<><><>0<>0<><>::uid://bfwd3c6tqmfyt::::res://Assets/UI Art/Panel Textures/panel_grey.svg
+level_select.tscn::PackedScene::7348332117490690146::1791067367::0::1::::<><><>0<>0<><>::uid://ci533rfydd5sv::::res://Themes/blue_theme.tres<>uid://bfwd3c6tqmfyt::::res://Assets/UI Art/Panel Textures/panel_grey.svg
 main_menu.gd::GDScript::3030401562381415559::1790872362::0::1::::<>Control<><>0<>0<><>::
 main_menu.tscn::PackedScene::7466342567029645282::1790981723::0::1::::<><><>0<>0<><>::uid://bjf7jhi2kbg0v::::res://Scenes/UI Scenes/main_menu.gd<>uid://ben3nfjr0rvp5::::res://Assets/UI Art/MainMenuBackground.png
+pause_menu.gd::GDScript::4956134160102702084::1790872272::0::1::::<>CanvasLayer<><>0<>0<><>::
+pause_menu.tscn::PackedScene::1581068257676740203::1791142109::0::1::::<><><>0<>0<><>::uid://ccu12nga4tap5::::res://Scenes/UI Scenes/pause_menu.gd<>uid://ci533rfydd5sv::::res://Themes/blue_theme.tres
 player_hud.gd::GDScript::8270050953029226897::1790981736::0::1::::<>CanvasLayer<><>0<>0<><>::
 player_hud.tscn::PackedScene::3409923474675712854::1790982240::0::1::::<><><>0<>0<><>::uid://dp3csb0svo2oj::::res://Scenes/UI Scenes/player_hud.gd<>uid://c5lomjbx54f0j::::res://Assets/Game Art/2DPlatformerTilemap.png
 ::res://StyleBoxes/::1790870985
 green_button_hover.tres::StyleBoxFlat::6237246866635233270::1790804342::0::1::::<><><>0<>0<><>::
 green_button_normal.tres::StyleBoxFlat::2098883374127223734::1790870903::0::1::::<><><>0<>0<><>::
 green_button_pressed.tres::StyleBoxFlat::8022397378251644867::1790870985::0::1::::<><><>0<>0<><>::
+::res://Themes/::1791141983
+blue_theme.tres::Theme::5398034428854639481::1791141983::0::1::::<><><>0<>0<><>::uid://bfwd3c6tqmfyt::::res://Assets/UI Art/Panel Textures/panel_grey.svg

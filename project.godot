@@ -32,7 +32,8 @@ folder_colors={
 "res://Assets/": "green",
 "res://Fonts/": "yellow",
 "res://Scenes/": "blue",
-"res://StyleBoxes/": "pink"
+"res://StyleBoxes/": "pink",
+"res://Themes/": "purple"
 }
 
 [gui]

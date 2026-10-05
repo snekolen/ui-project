@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dw10eobcff5x7" path="res://Assets/Game Art/background_fade_trees.svg" id="1_t50dg"]
 [ext_resource type="Texture2D" uid="uid://dpak1cwvqfrqs" path="res://Assets/Game Art/background_color_trees.svg" id="2_uwpwp"]
 [ext_resource type="PackedScene" uid="uid://dlg0gro1of0ht" path="res://Scenes/Game Scenes/Premade Scenes/2d_platformer_coin.tscn" id="4_rb1w1"]
-[ext_resource type="PackedScene" uid="uid://wr470p5fgxxb" path="res://Scenes/pause_menu.tscn" id="6_cd0lt"]
+[ext_resource type="PackedScene" uid="uid://wr470p5fgxxb" path="res://Scenes/UI Scenes/pause_menu.tscn" id="6_cd0lt"]
 [ext_resource type="PackedScene" uid="uid://diervuosq2jhf" path="res://Scenes/Game Scenes/Premade Scenes/2d_platformer_sign.tscn" id="6_rb1w1"]
 [ext_resource type="PackedScene" uid="uid://csgabv8fdusiy" path="res://Scenes/Game Scenes/Premade Scenes/2d_platformer_player.tscn" id="7_rb1w1"]
 [ext_resource type="PackedScene" uid="uid://bot17akbjqcew" path="res://Scenes/UI Scenes/player_hud.tscn" id="8_7s3nb"]
